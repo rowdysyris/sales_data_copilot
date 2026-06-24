@@ -460,7 +460,7 @@ def render_hero(dataset_loaded: bool, provider: str, hero_asset: str = "assets/h
 <section class="app-hero">
   <div class="hero-grid">
     <div>
-      <div class="eyebrow">Senior Analyst Copilot • Manager Demo Ready</div>
+      <div class="eyebrow">Senior Analyst Copilot • BETA </div>
       <h1 class="hero-title">Turn sales data into <span>board-ready decisions.</span></h1>
       <p class="hero-copy">
         Upload a CSV or Excel dataset and get KPI diagnostics, profit drivers, loss root causes,
