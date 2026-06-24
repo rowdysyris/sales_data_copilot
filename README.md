@@ -64,9 +64,12 @@ OLLAMA_MODEL=llama3.1
 - No-API, OpenAI, and Ollama modes
 - GitHub Actions CI and regression tests
 
-## Demo screenshot
+## Demo
 
-Add your screenshot or deployed demo link here.
+The application can be run locally using Streamlit.
+
+```bash
+streamlit run app.py
 
 ## Validation
 
