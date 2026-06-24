@@ -1,0 +1,51 @@
+# Environment / secrets
+.env
+.env.local
+*.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Runtime uploads and generated exports
+uploads/
+uploaded_files/
+reports/
+exports/
+generated_exports/
+powerbi_exports/
+*.tmp
+*.log
+
+# Ignore arbitrary user data files, but keep committed demo/test fixtures
+*.csv
+*.xlsx
+*.xls
+!sample_data/sample_sales_data.csv
+!tests/fixtures/*.csv
+
+# Node/build noise
+node_modules/

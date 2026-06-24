@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Initial manager-demo release: AI Sales Analyst Copilot"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/ai-sales-analyst-copilot.git
+git push -u origin main
