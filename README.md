@@ -2,6 +2,11 @@
 
 A manager-ready AI sales analyst app that reads a sales CSV/Excel file, profiles it, answers Tier 1–Tier 4 business questions, finds profit drivers, and exports BI-ready reports. All numbers are calculated with Pandas; optional OpenAI/Ollama only polishes wording.
 
+## Live Project Links
+
+Live Demo: https://salesdatacopilot.streamlit.app  
+GitHub Repository: https://github.com/rowdysyris/sales_data_copilot
+
 ## Install in 3 steps
 
 ```bash
@@ -66,7 +71,9 @@ OLLAMA_MODEL=llama3.1
 
 ## Demo
 
-The application can be run locally using Streamlit.
+Live app: https://salesdatacopilot.streamlit.app
+
+The application can also be run locally using Streamlit:
 
 ```bash
 streamlit run app.py
